@@ -12,10 +12,8 @@ import pexpect
 class   SDKConfig:
         # framework路径
         basepath = "/Users/lotawei/Library/Developer/Xcode/DerivedData/Myworkspace-bkvekghszqryiagkxxttvtrudmlq/Build/Products/"
-        taskdirlibs = ["RadiumSDK","SdkPlugin_AJ","SdkPlugin_PY","SdkPlugin_VK","SdkPlugin_FB"]
-        # taskdirlibs = [ "SdkPlugin_AJ"]
-        # lmpaths = ["{0}Release-iphonesimulator/{1}.framework".format(basepath,taskdirlibs[0])]#模拟器路径
-        # phonepaths = ["{0}Release-iphoneos/{1}.framework".format(basepath,taskdirlibs[0])] # 真机路径
+        taskdirlibs = ["RadiumSDK","SdkPlugin_AJ","SdkPlugin_PY","SdkPlugin_VK","SdkPlugin_FB"] #插件名 
+    
         # 模拟器路径
         lmpaths = []
         # 真机路径
@@ -26,11 +24,11 @@ class   SDKConfig:
         lincensepath =  "/Users/lotawei/Desktop/RadiumsdkPro/RadiumSDK_IOS/RadiumPublish/LICENSE" #license文件路径 用于pod发布
         #服务器相关配置
 
-        ips = "123.57.19.23" #自建服务器地址  上传相关
-        username = "root"
-        pwd = "86cPZTP9woNKWPCmPgoE"
+        ips = "11.1.1.1" #自建服务器地址  上传相关
+        username = "root?"
+        pwd = "??????"
         serverrootpath = "/IOS_SDK" #pod 相关上传zip根路径
-        taskversion = "1.0.4"
+        taskversion = "1.0.0"
 
 
         @staticmethod
